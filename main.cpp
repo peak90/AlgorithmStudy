@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
         cout<<"array size must be bigger than 0";
 	return -1;
     }
-   /* Stack *s=new Stack(size);
+    Stack *s=new Stack(size);
     int count=size;
     for(int i=0;i<count;i++)
     {
@@ -30,7 +30,7 @@ int main(int argc,char *argv[])
         cout<<s->pop()<<" ";
     }
     cout<<endl;
-    delete s;*/
+    delete s;
    /* Queue *q=new Queue(10);
     for(int i=0;i<10;i++)
     {
